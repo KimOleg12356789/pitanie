@@ -1,0 +1,32 @@
+<svg width="61" height="61" viewBox="0 0 61 61" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="30.5" cy="30.5" r="30.5" fill="url(#paint0_linear_990_153572)"/>
+<g clip-path="url(#clip0_990_153572)">
+<mask id="mask0_990_153572" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="14" y="10" width="39" height="40">
+<path d="M14.1607 10.8926H52.2857V49.0176H14.1607V10.8926Z" fill="white"/>
+</mask>
+<g mask="url(#mask0_990_153572)">
+<path d="M42.0836 19.4551H34.6373V12.0088L42.0836 19.4551Z" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<path d="M19.7466 23.9238H32.4053" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M19.7466 28.3906H29.4268" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M19.7466 32.8594H29.4268" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M19.7466 37.3262H29.4268" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<mask id="mask1_990_153572" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="14" y="10" width="39" height="40">
+<path d="M14.1607 10.8926H52.2857V49.0176H14.1607V10.8926Z" fill="white"/>
+</mask>
+<g mask="url(#mask1_990_153572)">
+<path opacity="0.7" d="M44.8511 27.376C47.4682 29.9931 47.4682 34.2364 44.8511 36.8535C42.234 39.4707 37.9906 39.4707 35.3736 36.8535C32.7563 34.2364 32.7563 29.9931 35.3736 27.376C37.9906 24.7588 42.234 24.7588 44.8511 27.376Z" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path opacity="0.7" d="M51.1693 43.1719L45.5767 37.5802" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M42.0845 23.9638V19.4556L34.6385 12.0093H18.2564C16.6114 12.0093 15.2779 13.3428 15.2779 14.9878V44.9219C15.2779 46.5668 16.6114 47.9004 18.2564 47.9004H39.106C40.7511 47.9004 42.0845 46.5668 42.0845 44.9219V40.303" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_990_153572" x1="65.7387" y1="74.1911" x2="23.7065" y2="15.6433" gradientUnits="userSpaceOnUse">
+<stop stop-color="#EE7301"/>
+<stop offset="1" stop-color="#FFA552"/>
+</linearGradient>
+<clipPath id="clip0_990_153572">
+<rect width="38.125" height="38.125" fill="white" transform="translate(14.1607 10.8926)"/>
+</clipPath>
+</defs>
+</svg>
