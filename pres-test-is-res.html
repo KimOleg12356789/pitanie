@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+
+    <!-- CSS -->
+
+    <link href="css/main2.css" rel="stylesheet">
+    <link href="css/media.css" rel="stylesheet">
+    <link href="fonts/stylesheet.css" rel="stylesheet">
+    <link href="slick/slick.css" rel="stylesheet">
+    <link href="slick/slick-theme.css" rel="stylesheet">
+  </head>
+
+  
+  <body>
+
+    <section class="mypage">
+      <div class="container2">
+        <div class="mypage-wrap">
+
+
+
+          <div class="mypage-block2 is mypage-block_quest">
+            <div class="mypage-border2">
+              <div class="mypage-border2-img">
+                <img src="images/mypage/mypage-border2.png" alt="">
+              </div>
+            </div>
+
+              <div class="result__title is68"><span><img src="./images/pres/check.svg"></span>Результат проверки рецепта</div>
+
+              <div class="pres-text">В 1 порции содержится</div>
+
+
+              <div class="table-losing is33">
+      <table>
+        <thead>
+            <tr>
+                <th>Список ингредиентов</th>
+                <th>Количество</th>
+                <th>Мера</th>
+                <th>Вес, г</th>
+                <th>Белки, г</th>
+                <th>Жиры, г</th>
+                <th>Углеводы, г</th>
+                <th>Калории, Ккал</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Куриное филе<span class="ist"><img src="./images/pres/info.svg"></span></td>
+                <td>150</td>
+                <td>Грамм</td>
+                <td>150</td>
+                <td>32.6</td>
+                <td>1.2</td>
+                <td>0.6</td>
+                <td>143.1</td>
+            </tr>
+            <tr>
+                <td>Рис белый<br> вареный<span class="ist"><img src="./images/pres/info.svg"></span></td>
+                <td>150</td>
+                <td>Грамм</td>
+                <td>150</td>
+                <td>3.3</td>
+                <td>0.8</td>
+                <td>37.4</td>
+                <td>174</td>
+            </tr>   
+            <tr class="ist">
+                <td>Итого</td>
+                <td></td>
+                <td></td>
+                <td>300</td>
+                <td>35.9</td>
+                <td>2</td>
+                <td>38</td>
+                <td>317.1</td>
+            </tr>    
+            <tr class="ists">
+                <td>На 100 грамм</td>
+                <td></td>
+                <td></td>
+                <td>100</td>
+                <td>12</td>
+                <td>0.7</td>
+                <td>12.7</td>
+                <td>105.7</td>
+            </tr>         
+        </tbody>
+    </table>
+              </div>
+                
+
+
+                    <button class="pres-but">Проверить рецепт</button>
+
+             
+
+              </div>
+
+                        
+                        
+                </div>
+
+                
+
+                
+                        </div>
+
+                </div>
+
+
+
+
+
+
+            
+
+              </div>
+              
+              
+            </div>
+
+            </div>
+
+          </div>
+
+            
+
+
+
+
+        </div>
+      </div>
+    </section>
+   
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.1/jquery.min.js"></script>
+    <script src="slick/slick.min.js"></script>
+    <script src="js/mains.js"></script>
+    <script src="js/slider.js"></script>
+    <script type="text/javascript">
+          $(function() {
+  var Accordion = function(el, multiple) {
+    this.el = el || {};
+    this.multiple = multiple || false;
+
+    // Variables privadas
+    var links = this.el.find('.link');
+    // Evento
+    links.on('click', {el: this.el, multiple: this.multiple}, this.dropdown)
+  }
+
+  Accordion.prototype.dropdown = function(e) {
+    var $el = e.data.el;
+      $this = $(this),
+      $next = $this.next();
+
+    $next.slideToggle();
+    $this.parent().toggleClass('open');
+
+    if (!e.data.multiple) {
+      $el.find('.acc-ul').not($next).slideUp().parent().removeClass('open');
+    };
+  } 
+
+  var accordion = new Accordion($('#accordion'), false);
+});
+    </script>  
+  </body>
+
+</html>

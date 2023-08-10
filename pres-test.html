@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+
+    <!-- CSS -->
+
+    <link href="css/main2.css" rel="stylesheet">
+    <link href="css/media.css" rel="stylesheet">
+    <link href="fonts/stylesheet.css" rel="stylesheet">
+    <link href="slick/slick.css" rel="stylesheet">
+    <link href="slick/slick-theme.css" rel="stylesheet">
+  </head>
+
+  
+  <body>
+
+    <section class="mypage">
+      <div class="container2">
+        <div class="mypage-wrap">
+
+
+
+          <div class="mypage-block2 is mypage-block_quest">
+            <div class="mypage-border2">
+              <div class="mypage-border2-img">
+                <img src="images/mypage/mypage-border2.png" alt="">
+              </div>
+            </div>
+
+              <div class="result__title is68"><span><img src="./images/pres/check.svg"></span>Проверка рецепта</div>
+
+              <div class="pres-text">Добавьте ингредиенты, чтобы проверить рецепт на количество ККал, Белков, Жиров,<br> Углеводов. </div>
+
+                <form class="madal-forms ist">
+                      <input class="first-foms" type="text" name="name" placeholder="Название продукта">
+                      <input class="first-foms2" type="text" name="name" placeholder="Количество">
+
+
+                      <div class="search-select">
+                          <span class="fields">
+                            <label class="seltexts" for="openeds">
+                               <a class="drops">
+                                <span class="drop-tit">
+                                    <i class="icon list"></i>Грамм
+                                </span>
+                                
+                              </a>
+                            </label>
+                          </span>
+                          <input id="openeds" type="checkbox">
+                          <ul id="is" class="select is">
+                            <li class="sel">
+                              <a class="drops">
+                                <span class="drop-tit"><i class="icon list"></i>600</span>
+                                
+                              </a>
+                            </li>
+                            <li>
+                               <a class="drops">
+                                <span class="drop-tit"><i class="icon list"></i>700</span>
+                                
+                              </a>
+                            </li>
+                            <li>
+                               <a class="drop">
+                                <span class="drop-tit"><i class="icon list"></i>800</span>
+                                
+                              </a>
+                            </li>
+                            <li>
+                              <a class="drop">
+                                <span class="drop-tit"><i class="icon list"></i>900</span>
+                                
+                              </a>
+                            </li>
+                            <li>
+                               <a class="drop">
+                                <span class="drop-tit"><i class="icon list"></i>Завтрак 5</span>
+                                
+                              </a>
+                            </li>
+                          </ul>
+                      </div>
+
+                      <a class="form-but" href=""><img src="images/result/plus-but.png"></a>
+                    </form>
+
+                    <div class="pres-com-wrpa">
+                      <div class="pres-tit-com">Список ингредиентов</div>
+                      <div class="pres-text-com">Здесь будут отображены ингредиенты из списка, после нажатия кнопки «+» </div>
+                    </div>
+                    <button class="pres-but">Проверить рецепт</button>
+
+             
+
+              </div>
+
+                        
+                        
+                </div>
+
+                
+
+                
+                        </div>
+
+                </div>
+
+
+
+
+
+
+            
+
+              </div>
+              
+              
+            </div>
+
+            </div>
+
+          </div>
+
+            
+
+
+
+
+        </div>
+      </div>
+    </section>
+   
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.1/jquery.min.js"></script>
+    <script src="slick/slick.min.js"></script>
+    <script src="js/mains.js"></script>
+    <script src="js/slider.js"></script>
+    <script type="text/javascript">
+          $(function() {
+  var Accordion = function(el, multiple) {
+    this.el = el || {};
+    this.multiple = multiple || false;
+
+    // Variables privadas
+    var links = this.el.find('.link');
+    // Evento
+    links.on('click', {el: this.el, multiple: this.multiple}, this.dropdown)
+  }
+
+  Accordion.prototype.dropdown = function(e) {
+    var $el = e.data.el;
+      $this = $(this),
+      $next = $this.next();
+
+    $next.slideToggle();
+    $this.parent().toggleClass('open');
+
+    if (!e.data.multiple) {
+      $el.find('.acc-ul').not($next).slideUp().parent().removeClass('open');
+    };
+  } 
+
+  var accordion = new Accordion($('#accordion'), false);
+});
+    </script>  
+  </body>
+
+</html>

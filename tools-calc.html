@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+
+    <!-- CSS -->
+
+    <link href="css/main2.css" rel="stylesheet">
+    <link href="css/media.css" rel="stylesheet">
+    <link href="fonts/stylesheet.css" rel="stylesheet">
+    <link href="slick/slick.css" rel="stylesheet">
+    <link href="slick/slick-theme.css" rel="stylesheet">
+  </head>
+
+  
+  <body>
+
+    <section class="mypage">
+      <div class="container2">
+        <div class="mypage-wrap">
+
+
+
+          <div class="mypage-block2 is mypage-block_quest">
+            <div class="mypage-border2">
+              <div class="mypage-border2-img">
+                <img src="images/mypage/mypage-border2.png" alt="">
+              </div>
+            </div>
+
+              <div class="result__title is89">Калькулятор</div>
+
+              <div class="quest-wrap-img is">
+                <div class="quest__img is">
+                  <div class="tools-calc-bl">
+                    <div class="tools-calc-img"><img src="./images/tools/calculators.png"></div>
+                    <div class="tools-calc-tit">Калькулятор индекса массы тела</div>
+                    <div class="tools-calc-taxt">С помощью калькулятора ИМТ вы можете рассчитать свой показатель</div>
+                    <div class="tools-calc-but">
+                      <a href="">Пройти тест</a>
+                      <span><img src="./images/tools/mark_button.png"></span>
+                    </div>
+                  </div>
+                </div> 
+                <div class="quest__img is">
+                  <div class="tools-calc-bl">
+                    <div class="tools-calc-img"><img src="./images/tools/calculators.png"></div>
+                    <div class="tools-calc-tit">Расчёт калорийности</div>
+                    <div class="tools-calc-taxt">Вы сможете рассчитать количество энергии, необходимое организму</div>
+                    <div class="tools-calc-but">
+                      <a href="">Пройти тест</a>
+                      <span><img src="./images/tools/mark_button.png"></span>
+                    </div>
+                  </div>
+                </div>
+                  <div class="quest__img is">
+                      <div class="tools-calc-bl">
+                        <div class="tools-calc-img"><img src="./images/tools/calculators.png"></div>
+                        <div class="tools-calc-tit">Расчёт калорийности</div>
+                        <div class="tools-calc-taxt">Вы сможете рассчитать количество энергии, необходимое организму</div>
+                        <div class="tools-calc-but">
+                          <a href="">Пройти тест</a>
+                          <span><img src="./images/tools/mark_button.png"></span>
+                  </div>
+
+              </div>
+
+
+             
+
+              </div>
+
+                        
+                        
+                </div>
+
+                
+
+                
+                        </div>
+
+                </div>
+
+
+
+
+
+
+            
+
+              </div>
+              
+              
+            </div>
+
+            </div>
+
+          </div>
+
+            
+
+
+
+
+        </div>
+      </div>
+    </section>
+   
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.1/jquery.min.js"></script>
+    <script src="slick/slick.min.js"></script>
+    <script src="js/mains.js"></script>
+    <script src="js/slider.js"></script>
+    <script type="text/javascript">
+          $(function() {
+  var Accordion = function(el, multiple) {
+    this.el = el || {};
+    this.multiple = multiple || false;
+
+    // Variables privadas
+    var links = this.el.find('.link');
+    // Evento
+    links.on('click', {el: this.el, multiple: this.multiple}, this.dropdown)
+  }
+
+  Accordion.prototype.dropdown = function(e) {
+    var $el = e.data.el;
+      $this = $(this),
+      $next = $this.next();
+
+    $next.slideToggle();
+    $this.parent().toggleClass('open');
+
+    if (!e.data.multiple) {
+      $el.find('.acc-ul').not($next).slideUp().parent().removeClass('open');
+    };
+  } 
+
+  var accordion = new Accordion($('#accordion'), false);
+});
+    </script>  
+  </body>
+
+</html>
