@@ -715,6 +715,33 @@ form.madal-forms.is2 input.first-foms {
 /* Galaxy S8+*/ 
 @media screen and (max-width: 480px) {
 
+    .doc-inf-bl {
+        display: block;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .doc-inf-text-ist {
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        border-radius: 10px;
+        border: 1px solid #BCC0B7;
+        background: #FFF;
+        padding: 14px 30px 14px 25px;
+        width: 100%;
+    }
+
+    .doc-inf-tits {
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+        width: 100%;
+        margin: 0 0 11px 0;
+    }
+
 .tools-img-is img {
     width: 100%;
 }
