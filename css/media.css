@@ -697,6 +697,18 @@ form.madal-forms.is2 input.first-foms {
 /* Ipad mini*/ 
 @media screen and (max-width: 640px) {
 
+    .quves-dia-bl {
+        width: 80%;
+        padding: 20px 15px;
+        border-radius: 5px;
+        border: 1px solid #BCC0B7;
+        margin-bottom: 25px;
+    }
+
+    .quves-dia-img {
+        width: 20%;
+    }
+
     .cocl-flo-tit {
         font-size: 18px;
         font-style: normal;
