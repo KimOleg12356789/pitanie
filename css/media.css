@@ -1104,6 +1104,8 @@ form.madal-forms.is2 input.first-foms {
 /* Galaxy S8+*/ 
 @media screen and (max-width: 480px) {
 
+   
+
     .doc-inf-wrap {
         border-radius: 10px;
         border: 1px solid #BCC0B7;
@@ -1540,7 +1542,13 @@ form.madal-forms.is2 input.first-foms {
 }
 
 .quves-dia-img {
-    display: none;
+    width: 20%;
+    margin: 0 0 15px 0;
+}
+
+.quves-dia-wrap {
+    display: flex;
+    flex-wrap: nowrap;
 }
 
 .quves-dia-bl {
